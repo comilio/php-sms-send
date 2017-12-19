@@ -1,0 +1,24 @@
+{
+    "name": "comilio/sms-send",
+    "description": "Client library to send SMS using Comilio SMS Gateway API (https://www.comilio.it)",
+    "keywords": ["comilio", "sms", "api", "gateway"],
+    "homepage": "http://github.com/comilio/php-sms-send",
+    "type": "library",
+    "license": "MIT",
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "Comilio",
+            "email": "tech@comilio.it"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+	    "nategood/httpful": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Comilio\\": "src/"
+        }
+    }
+}
