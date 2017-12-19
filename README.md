@@ -1,6 +1,6 @@
 # Comilio PHP SMS Send
 
-PHP client library to send SMS using Comilio SMS Gateway.
+PHP client library to send SMS messages using Comilio SMS Gateway.
 
 To use this library, you must have a valid account on https://www.comilio.it.
 
@@ -20,7 +20,7 @@ $my_sms->authenticate('your_username', 'your_password')
 
 # Installation
 
-## Composer (raccomended)
+## Composer (recommended)
 
 Install it via composer (https://getcomposer.org/).
 
@@ -30,7 +30,7 @@ Install it via composer (https://getcomposer.org/).
 
 ## Other autoloaders
 
-This package is PSR-4 compliant, so you can clone the repository in your project and a use PSR-4 compatible autoloader (e.g. Symfony)
+This package is PSR-4 compliant, so you can clone the repository in your project and a use PSR-4 compatible autoloader (e.g. Symfony or Laravel)
 
 ## Manual installation
 
